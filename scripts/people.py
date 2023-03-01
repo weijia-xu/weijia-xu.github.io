@@ -2,6 +2,8 @@ people = {
     'me': ('Weijia Xu', ''),
     'marine': ('Marine Carpuat', 'http://www.cs.umd.edu/~marine/'),
     'sweta': ('Sweta Agrawal', 'https://sweta20.github.io/'),
+    'eleftheria': ('Eleftheria Briakou', 'https://elbria.github.io/'),
+    'marianna': ('Marianna J. Martindale', 'https://scholar.google.com/citations?user=RsQzCU4AAAAJ&hl=en'),
     'xing': ('Xing Niu', 'http://xingniu.org/'),
     'batool': ('Batool Haider', 'https://scholar.google.com/citations?hl=en&user=-1JPCmYAAAAJ&view_op=list_works&sortby=pubdate'),
     'saab': ('Saab Mansour', 'https://scholar.google.de/citations?hl=en&user=1tCbwIQAAAAJ&view_op=list_works&sortby=pubdate'),

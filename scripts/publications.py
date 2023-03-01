@@ -1,6 +1,16 @@
 pubs = []
 
 pubs.append({
+    'bib': 'XuABMC2023',
+    'title': 'Understanding and Detecting Hallucinations in Neural Machine Translation via Model Introspection',
+    'author': ('me', 'sweta', 'eleftheria', 'marianna', 'marine'),
+    'year': '2023',
+    'venue': 'tacl',
+    'type': 'conference',
+    'pdf': 'https://arxiv.org/abs/2301.07779',
+})
+
+pubs.append({
     'bib': 'XuC2021',
     'title': 'Rule-based Morphological Inflection Improves Neural Terminology Translation',
     'author': ('me', 'marine'),
