@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<link href="style/my.css" rel="stylesheet" type="text/css" />
+	<title>Weijia Xu</title>
+	<script>
+	function copy(dest, source) {
+  		if(dest.source == source) {
+  		  dest.innerHTML = "";
+  		  dest.source = null;
+  		}
+  		else {
+  		  dest.innerHTML = source.innerHTML;
+  		  dest.source = source;
+  		}
+  		dest.blur();
+	}
+	</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includepubs").load("publication.html"); 
+    });
+    </script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+
+<!-- header info -->
+<div id="header">
+<div id="profile">
+	<img src="figures/2022.Aug.Acadia.jpg" height=250>
+</div>
+<div id="contact">	
+	<table border="0">
+	<tr>
+	<td><font size=6><b>Weijia Xu</b> &nbsp;&nbsp;</font></td>
+	<td><img align=right src="figures/name.png" height=50></td>
+	<td><font size="2">&nbsp;
+	</tr>
+	</table>
+	<br>
+	3126 A. V. Williams <br>
+	University of Maryland, College Park<br>
+    <p><font face="courier">weijia@cs.umd.edu</font></p>
+    <p>
+    [<a href="docs/cv/cv.pdf">CV</a>]
+    [<a href="https://scholar.google.com/citations?user=6uUw43gAAAAJ&hl=en">Scholar</a>]
+    [<a href="https://github.com/Izecson">Github</a>]
+    [<a href="https://twitter.com/weijiavxu">Twitter</a>]
+    </p>
+	<br>
+
+</div>
+</div>
+
+<!-- main content -->
+<div id="content">
+<div class="section">
+    <p> I am currently a Senior Researcher at Microsoft Research Redmond. My general research goal is to build natural language generation models that can plan, act and interact with humans proactively under dynamic goals in complex environments.
+
+    <p>I obtained my Ph.D. degree in Computer Science at the <a href = "https://www.umd.edu">University of Maryland, College Park</a> where I worked with <a href = "http://cs.umd.edu/~marine">Marine Carpuat</a>
+    and other members of the <a href = "https://wiki.umiacs.umd.edu/clip/index.php/Main_Page">CLIP lab</a>. My Ph.D. work focuses on integrating stronger inductive biases for <b><i>data-efficient, controllable, and robust</i></b> machine translation.
+
+<!-- content end -->
+
+</div>
+<hr color="#">
+<div class="section">
+<div class="section_title"><p id="pubs"><font size="+1"><strong>Publications</strong></font>  </p></div>
+<div id="includepubs"></div>
+</div>
+<!-- content end -->
+
+<hr color="#">
+<div class="section">
+<div class="section_title"><p><font size="+1"><strong>Awards</strong></font>  </p></div>
+<ul>
+  <li><b>Ann G. Wylie Dissertation Fellowship</b>, University of Maryland, 2022</li>
+  <li><b>Rising Stars</b>, Microsoft Research Asia, 2020</li>
+  <li><b>Dean's Fellowship</b>, University of Maryland, 2017-18</li>
+  <li><b>Honorable Student Title</b>, University of Science and Technology of China, 2016-17</li>
+</ul>
+</div>
+<!-- content end -->
+
+</body>
